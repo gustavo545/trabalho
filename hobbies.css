@@ -1,0 +1,38 @@
+h1{
+    /* posicionando no centro */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 5rem; /* tamanho fonte */
+}
+
+.texto {
+    /* aparencia */
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hobbies-div {
+    /* posicionamento */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+    width: 600px; /* largura */
+
+    /* aparencia conteudo */
+    background-color: #666;
+    border: 2px solid #505050;
+    border-radius: 8px;
+}
+
+.sobremim{
+    
+    text-align: center; /* alinhando conteudo ao meio */
+    font-size: 32px; /* tamanho fonte */
+    color: white; /* cor */
+    letter-spacing: 1px; /* espaço letra */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* fonte */
+    
+}

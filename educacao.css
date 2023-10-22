@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Resetando o css */
+}
+
+html {
+    background-color: rgba(100, 149, 237, 1); /* cor de fundo */
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px; /* posicionando conteudo */
+}
+
+
+.educacao-div {
+    background-color:chartreuse; 
+
+    height: 200px; 
+    width: 800px; /*  tamanho */
+
+    text-align: center; /* posicionamento */
+
+    border: 5px solid green; /* aparencia conteudo*/
+    border-radius: 10px;
+}
+
+.educacao-div h1 {
+    padding-top: 75px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.parents{
+    width: 800px;   /* tamanho */
+    height: auto;
+
+    background-color: white; /* aparencia conteudo */
+    border: 5px solid #666;
+    border-radius: 5px;
+
+    display: flex;  /*posicionamento  */
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+.parents p{
+    font-size: 24px; /* aparencia */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}

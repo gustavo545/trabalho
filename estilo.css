@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*resetando css */
+}
+
+.header-trabalho {
+    background-color: #1d2845; /*cor de fundo */
+
+    height: 72px; /*tamanho */
+
+    display: flex; /*posicionamento */
+    justify-content: center;
+    position: relative;
+
+    border-bottom: 3px solid black; /*aparencia */
+}
+
+.header-h1 h1 {
+    font-size: 48px; /*aparencia */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*tamanho da fonte */
+    color: antiquewhite; /* cor */
+    letter-spacing: 1px; /*espaço entre as letras */
+}
+
+.header-logo img{ 
+    width: 64px; /*tamanho largura */
+    position: absolute; /* posicionando*/
+    left: 0; /*0px esquerda */
+  }
+
+.content-section {
+    display: flex; /*posicionamento conteudo */
+    justify-content: center;
+    padding-top: 250px;
+    gap: 28px;
+    
+}
+
+.card {
+    border: 3px solid #131314; /*aparencia */
+    background-color: #1d2845;
+    border-radius: 8px;
+}
+
+.card img {
+    padding-bottom: 0; /*posicionamento imagem */
+    display: flex;
+    flex-direction: column;
+}
+
+.card a {
+    /*aparencia */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    letter-spacing: 2px;
+
+    /*posicionamento */
+    padding: 6px;
+
+    
+}
+

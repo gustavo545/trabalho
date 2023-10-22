@@ -1,0 +1,52 @@
+h1 {
+    /* alinhando texto */
+    text-align: center;
+}
+
+.div {
+    /* tamanho conteudo */
+    width: 50rem;
+    margin: 0 auto;
+    height: 50rem;
+}
+
+    
+form {
+    /* posicionamento conteudo */
+    display: flex;
+    flex-direction: column;
+     margin: 0 auto;
+
+     /*largura */  
+    width: 550px;
+   
+    /* espaço entre o conteudo */
+    gap: 3rem;
+}
+
+button {
+    border-radius: 6px;
+    border: none;
+    cursor: pointer; /* trocando cursos */
+    padding: 8px;
+
+    /* aparencia conteudo */
+    background-color: #535252;
+    font-size: 1rem;
+    color: white;
+    opacity: .9;
+}
+
+label{
+    /* fonte e tamanho da fonte */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+}
+
+input, select, textarea {
+    font-size: 1rem; 
+    padding: 8px; 
+    width: 100%;
+    border-radius: 3px;
+    border: 2px solid #ccc;
+}

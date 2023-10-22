@@ -1,0 +1,11 @@
+.conteudo {
+
+    font-size: 56px; /* Tamanho da fonte */
+    text-decoration: bold; /* Negrito  */
+    text-align: center; /* Alinhando no centro */
+    letter-spacing: 1px; /* Espaçando as letras */
+
+    width: 600px; /* Largura */
+
+    margin: 0 auto; /* Posicionando */
+}
